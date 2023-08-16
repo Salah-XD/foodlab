@@ -1,0 +1,43 @@
+.footer {
+  display: flex;
+  width: 100%;
+}
+.add {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35vw;
+}
+.add .text {
+  display: flex;
+  flex-direction: column;
+}
+.bdd {
+  padding: 30px 0;
+
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background: #f4eea9;
+}
+.content {
+  display: flex;
+  justify-content: space-evenly;
+}
+.content ul li {
+  list-style: none;
+  padding: 3px 0;
+}
+.content ul li a {
+  text-decoration: none;
+  color: #111;
+}
+.ft-logo {
+  width: 200px;
+}
+.copyright {
+  margin: 40px auto;
+  float: center;
+}
