@@ -1,0 +1,14 @@
+.cwrapper {
+  margin: auto;
+  float: center;
+}
+.message_field::placeholder {
+  transform: translateY(-200%);
+}
+input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+}
+.send {
+  max-width: max-content;
+}

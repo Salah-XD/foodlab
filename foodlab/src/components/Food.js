@@ -20,7 +20,7 @@ function Food() {
             alt="path"
             className="absolute w-[350px] left-[53px] top-[137%] -z-10"
           />
-          <img src="images/food.png" alt="image" className="w-[1550px]" />
+          <img src="images/food.png" alt="image" className="w-[1670px]" />
         </div>
         <div className="food__main__right self-align">
           <p className="text-2xl font-normal">
