@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
 import Main from "./Main";
+import test from "./test";
 
 function Slider() {
   const slides = [
