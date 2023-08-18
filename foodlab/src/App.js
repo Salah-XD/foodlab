@@ -7,6 +7,7 @@ import Slider from "./components/Slider";
 import Food from "./components/Food";
 import Contact from "./components/Contact";
 import Testimonial from "./components/Testimonial";
+import Fork from "./components/Fork";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Slider />
       <Food />
+      <Fork />
       <Contact />
       <Testimonial />
       <Footer />
