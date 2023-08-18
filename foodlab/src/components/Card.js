@@ -1,15 +1,11 @@
 import React from "react";
 
-function Card() {
+function Card({ img, name }) {
   return (
     <div className="cardd h-[200px] w-[400px] p-[20px] rounded-[7px] border-[#707070] border">
       <div className="handle flex items-center gap-2 mb-2">
-        <img
-          src="./images/anime.jpg"
-          alt="img"
-          className="rounded-[50%] w-[40px]"
-        />
-        <div className="text font-semibold">Ayanokoji</div>
+        <img src={img} alt="img" className="rounded-[50%] w-[40px]" />
+        <div className="text font-semibold">{name}</div>
       </div>
       <p className="leading-[1.25]">
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sunt in culpa

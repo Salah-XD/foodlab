@@ -9,7 +9,7 @@ function Testimonial() {
         <h1 className="title text-3xl">Testimonial</h1>
       </div>
       <div className="cr flex ">
-        <Card />
+        <Card img="./images/anime.jpg" name="John Doe" />
         <Card />
         <Card />
         <Card />
