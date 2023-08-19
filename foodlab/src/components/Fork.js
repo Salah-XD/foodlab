@@ -2,7 +2,7 @@ import React from "react";
 
 function Fork() {
   return (
-    <div className="ftf px-[110px] relative mt-[60px]">
+    <div className="ftf px-[130px] relative mt-[60px]">
       {/* line */}
       <img
         src="./images/path 1382.svg"
@@ -56,10 +56,22 @@ function Fork() {
         alt="path"
         className="absolute scale-x-[-1] w-[300px] top-[395px] left-[25%]"
       />
+      {/* corners */}
+      <img
+        src="./images/border.svg"
+        alt="border"
+        className="absolute w-[300px] top-[75px] left-[170px]"
+      />
+      <img
+        src="./images/border.svg"
+        alt="border"
+        className="absolute w-[300px] top-[525px] left-[170px]"
+      />
+      {/* main */}
       <h3 className="text-center text-3xl font-bold mb-3">
         Ensuring safety of food from
       </h3>
-      <h1 className="text-center text-5xl font-bold text-[#519259] mb-5">
+      <h1 className="text-center text-5xl font-bold text-[#519259] mb-[60px]">
         Farm <span className="text-[#F0BB62]">to Fork</span>
       </h1>
       <div className="bb">
