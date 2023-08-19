@@ -2,7 +2,7 @@ import React from "react";
 
 function Fork() {
   return (
-    <div className="ftf px-[65px]">
+    <div className="ftf px-[90px]">
       <h3 className="text-center text-3xl font-bold mb-3">
         Ensuring safety of food from
       </h3>
@@ -10,7 +10,7 @@ function Fork() {
         Farm <span className="text-[#F0BB62]">to Fork</span>
       </h1>
       <div className="bb">
-        <div className="row1 flex gap-6 items-end mt-8">
+        <div className="row1 flex gap-8 items-end mt-8">
           <img src="./images/px/px.png" alt="farm" className="w-[300px]" />
           <div className="text">
             <h3 className="text-2xl mb-2">
@@ -22,7 +22,7 @@ function Fork() {
             </p>
           </div>
         </div>
-        <div className="row2 flex gap-6 items-end ml-[45%] w-[100%] text-right mt-8">
+        <div className="row2 flex gap-8 items-end ml-[40%] w-[100%] text-right mt-8">
           <div className="text">
             <h3 className="text-2xl mb-2">
               <span className="text-[#519259] font-bold">M</span>anufacturing
@@ -39,7 +39,7 @@ function Fork() {
             className="w-[300px]"
           />
         </div>
-        <div className="row3 flex gap-6 items-end mt-8">
+        <div className="row3 flex gap-8 items-end mt-8">
           <img
             src="./images/Image 27/Image 27.png"
             alt="farm"

@@ -17,7 +17,7 @@ function Food() {
           <img
             src="images/path 1385.svg"
             alt="path"
-            className=" w-[350px] absolute left-[95%] top-[110%] -z-10"
+            className=" w-[350px] absolute left-[260%] top-[-2rem] -z-10"
           />
 
           <img
