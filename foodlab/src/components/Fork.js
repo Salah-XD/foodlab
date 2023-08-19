@@ -8,7 +8,7 @@ function Fork() {
         Farm <span>to Fork</span>
       </h1>
       <div className="bb">
-        <div className="row1">
+        <div className="row1 flex gap-6">
           <img src="./images/px/px.png" alt="farm" />
           <div className="text">
             <h3>
@@ -20,8 +20,7 @@ function Fork() {
             </p>
           </div>
         </div>
-        <div className="row2">
-          <img src="./images/Image 25/Image 25.png" alt="farm" />
+        <div className="row2 flex gap-6 flex-start">
           <div className="text">
             <h3>
               <span>M</span>anufacturing
@@ -32,8 +31,9 @@ function Fork() {
               Clear
             </p>
           </div>
+          <img src="./images/Image 25/Image 25.png" alt="farm" />
         </div>
-        <div className="row3">
+        <div className="row3 flex gap-6 flex-end">
           <img src="./images/Image 27/Image 27.png" alt="farm" />
           <div className="text">
             <h3>
