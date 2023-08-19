@@ -18,8 +18,8 @@ function Footer() {
       </div>
       <div className="bdd">
         <div className="content">
-          <div className="c1">
-            <div className="path"></div>
+          <div className="c1 ">
+            <div className="path w-14 h-[2px] bg-[#519259]"></div>
             <ul>
               <li>
                 <a href="">
@@ -55,7 +55,7 @@ function Footer() {
             </ul>
           </div>
           <div className="c1">
-            <div className="path"></div>
+            <div className="path w-14 h-[2px] bg-[#519259]"></div>
             <ul>
               <li>
                 <a href="">

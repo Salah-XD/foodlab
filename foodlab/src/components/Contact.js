@@ -3,8 +3,8 @@ import "./styles/contact.css";
 
 function Contact() {
   return (
-    <div className="contact">
-      <div className="title__sec flex items-center gap-x-2 font-bold ml-[55px]">
+    <div className="contact py-5">
+      <div className="title__sec flex items-center gap-x-2 font-bold ml-[55px] mb-12">
         <div className="path2 w-1 h-8 bg-[#519259]"></div>
         <h1 className="title text-3xl">Contact Us</h1>
       </div>
