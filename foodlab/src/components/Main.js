@@ -12,7 +12,7 @@ function Main() {
       </p>
       <a
         href="#"
-        className="text-[#fff] bg-[#278233] px-5 py-3 rounded-[7px] my-9 font-medium shadow-xl  "
+        className="text-[#fff] bg-[#278233] px-5 py-3 rounded-[7px] my-9 font-medium shadow-xl main-btn"
       >
         Get Started
       </a>

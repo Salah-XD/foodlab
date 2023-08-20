@@ -37,7 +37,7 @@ function Food() {
           </p>
           <a
             href="#"
-            className=" send text-[#fff] bg-[#519259] rounded-[5px]  px-10 py-3 font-semibold mt-[-30px]"
+            className=" send text-[#fff] bg-[#519259] rounded-[5px]  px-10 py-3 font-semibold mt-[-30px] hover:bg-[#fff] hover:text-[#519259] hover:border-[2px] border-[#519259] transition-all duration-500 ease-in-out"
           >
             Read More
           </a>
