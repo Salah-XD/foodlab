@@ -1,5 +1,6 @@
 import React from "react";
 import "../components/styles/main.css";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function Main() {
   return (
@@ -10,12 +11,21 @@ function Main() {
       <p className="text-2xl font-semibold mb-6 leading-[1.15   ]">
         Food Lab is one point solution for all <br /> food safety needs
       </p>
-      <a
-        href="#"
-        className="text-[#fff] bg-[#278233] px-5 py-3 rounded-[7px] my-9 font-medium shadow-xl main-btn"
+      <Link
+        activeClass="active"
+        to="section1"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
       >
-        Get Started
-      </a>
+        <a
+          href="#"
+          className="text-[#fff] bg-[#278233] px-5 py-3 rounded-[7px] my-9 font-medium shadow-xl main-btn"
+        >
+          Get Started
+        </a>
+      </Link>
     </div>
   );
 }
