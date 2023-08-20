@@ -3,10 +3,12 @@
   float: center;
   box-shadow: 0px 3px 6px #00000029;
 }
-.message_field::placeholder {
-  transform: translateY(-200%);
+.message_field {
+  padding: 8px;
+  resize: none;
 }
-input::placeholder {
+input,
+textarea::placeholder {
   font-size: 14px;
   font-weight: 400;
 }

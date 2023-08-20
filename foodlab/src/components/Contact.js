@@ -19,7 +19,7 @@ function Contact() {
             placeholder="Enter e-mail"
           />
           <h3 className="text-left font-semibold">Message</h3>
-          <input
+          <textarea
             className="message_field h-[120px] rounded-[6px] px-2 border-none outline-none"
             type="text"
             name=""
