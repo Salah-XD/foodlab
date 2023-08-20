@@ -2,7 +2,7 @@ import React from "react";
 
 function Fork() {
   return (
-    <div className="ftf px-[130px] relative mt-[60px]">
+    <div className="ftf px-[130px] relative mt-[60px] mb-8">
       {/* line */}
       <img
         src="./images/path 1382.svg"
@@ -66,6 +66,11 @@ function Fork() {
         src="./images/border.svg"
         alt="border"
         className="absolute w-[300px] top-[555px] left-[180px]"
+      />
+      <img
+        src="./images/border.svg"
+        alt="border"
+        className="absolute w-[300px] top-[450px] left-[885px] rotate-[180deg]"
       />
       <img
         src="./images/border.svg"

@@ -3,8 +3,23 @@ import "./styles/contact.css";
 
 function Contact() {
   return (
-    <div className="contact py-5">
-      <div className="title__sec flex items-center gap-x-2 font-bold ml-[55px] mb-12">
+    <div className="contact py-5 relative">
+      <img
+        src="./images/path 1385.svg"
+        alt="path"
+        className="absolute w-[500px] left-[96%] top-[-120px]"
+      />
+      <img
+        src="./images/path 1385.svg"
+        alt="path"
+        className="absolute w-[400px] left-[94%] top-[400px] rotate-[120deg]"
+      />
+      <img
+        src="./images/path 1385.svg"
+        alt="path"
+        className="absolute w-[500px] right-[93%] top-[250px]"
+      />
+      <div className="title__sec flex items-center gap-x-2 font-bold ml-[55px] mb-[55px]">
         <div className="path2 w-1 h-8 bg-[#519259]"></div>
         <h1 className="title text-3xl">Contact Us</h1>
       </div>
