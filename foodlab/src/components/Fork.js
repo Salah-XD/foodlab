@@ -23,49 +23,59 @@ function Fork() {
       <img
         src="./images/Group 165.svg"
         alt="checker"
-        className="absolute w-[115px] top-[253px] left-12 -z-10"
+        className="absolute w-[115px] top-[273px] left-[80px] -z-10"
       />
       <img
         src="./images/Group 165.svg"
         alt="checker"
-        className="absolute w-[115px] top-[703px] left-12 -z-10"
+        className="absolute w-[115px] top-[723px] left-[80px] -z-10"
       />
       <img
         src="./images/Group 165.svg"
         alt="checker"
-        className="absolute w-[115px] left-[86%] top-[310px] -z-10"
+        className="absolute w-[115px] left-[86%] top-[330px] -z-10"
       />
       <img
         src="./images/Group 165.svg"
         alt="checker"
-        className="absolute w-[115px] left-[86%] top-[790px] -z-10"
+        className="absolute w-[115px] left-[85%] top-[800px] -z-10"
       />
       {/* track */}
       <img
         src="./images/Group 167.svg"
         alt="path"
-        className="absolute w-[300px] top-[190px] left-[50%]"
+        className="absolute w-[300px] top-[220px] left-[50%]"
       />
       <img
         src="./images/Group 167.svg"
         alt="path"
-        className="absolute w-[300px] top-[650px] left-[52%]"
+        className="absolute w-[300px] top-[680px] left-[52%]"
       />
       <img
         src="./images/Group 167.svg"
         alt="path"
-        className="absolute scale-x-[-1] w-[300px] top-[395px] left-[25%]"
+        className="absolute scale-x-[-1] w-[300px] top-[420px] left-[25%]"
       />
       {/* corners */}
       <img
         src="./images/border.svg"
         alt="border"
-        className="absolute w-[300px] top-[75px] left-[170px]"
+        className="absolute w-[300px] top-[115px] left-[180px]"
       />
       <img
         src="./images/border.svg"
         alt="border"
-        className="absolute w-[300px] top-[525px] left-[170px]"
+        className="absolute w-[300px] top-[555px] left-[180px]"
+      />
+      <img
+        src="./images/border.svg"
+        alt="border"
+        className="absolute w-[300px] top-[925px] left-[470px] rotate-180"
+      />
+      <img
+        src="./images/border.svg"
+        alt="border"
+        className="absolute w-[300px] top-[925px] left-[865px] rotate-180"
       />
       {/* main */}
       <h3 className="text-center text-3xl font-bold mb-3">
@@ -142,7 +152,7 @@ function Fork() {
             />
           </div>
         </div>
-        <div className="subb flex gap-[340px] ml-[47%] mt-8">
+        <div className="subb flex gap-[280px] ml-[47%] mt-8">
           <h3 className="text-2xl mb-2">
             <span className="text-[#519259] font-bold">G</span>roceries
           </h3>
